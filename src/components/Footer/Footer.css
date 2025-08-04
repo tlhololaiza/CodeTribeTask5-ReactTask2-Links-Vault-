@@ -9,3 +9,21 @@ footer {
   bottom: 0;
   left: 0;
 }
+
+@media (min-width: 640px) {
+  .header-content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-title {
+    font-size: 1.5rem;
+  }
+}

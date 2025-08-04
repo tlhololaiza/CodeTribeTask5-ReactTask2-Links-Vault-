@@ -8,6 +8,7 @@ import LinkCard from './components/LinkCard/LinkCard';
 import EmptyState from './components/EmptyState/EmptyState';
 import Notification from './components/Notification/Notification';
 import './App.css';
+import Footer from './components/Footer/Footer';
 
 const App: React.FC = () => {
   const [links, setLinks] = useState<Link[]>([]);
@@ -131,9 +132,7 @@ const App: React.FC = () => {
           </div>
         )}
 
-        <footer className="footer">
-          Links Vault - Keep your favorite links organized and accessible
-        </footer>
+        <Footer/>
       </div>
     </div>
   );

@@ -17,7 +17,7 @@ const Header: React.FC<HeaderProps> = ({ onAddClick }) => {
               </svg>
             </div>
             <div>
-              <h1 className="header-title">Links Vault</h1>
+              <h1 className="header-title">My Links Vault</h1>
               <p className="header-subtitle">Your personal bookmark manager</p>
             </div>
           </div>

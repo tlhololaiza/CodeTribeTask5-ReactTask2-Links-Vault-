@@ -4,13 +4,4 @@ export interface Link {
   url: string;
   description: string;
   tags: string[];
-  createdAt: string;
-  updatedAt: string;
-}
-
-export interface LinkFormData {
-  title: string;
-  url: string;
-  description: string;
-  tags: string;
 }

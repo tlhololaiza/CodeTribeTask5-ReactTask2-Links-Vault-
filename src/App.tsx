@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, LinkFormData } from './types';
+import type { Link, LinkFormData } from './types';
 import { saveLinks, loadLinks } from './utils/localStorage';
 import Header from './components/Header/Header';
 import SearchBar from './components/SearchBar/SearchBar';
